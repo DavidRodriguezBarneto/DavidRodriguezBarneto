@@ -1,6 +1,8 @@
+//Comentario en nueva rama
+
 
 public class Empleado {
-
+	
 	private String nombre;
 	private int sueldo;
 	

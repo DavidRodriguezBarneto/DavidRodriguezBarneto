@@ -9,6 +9,10 @@ public class Empleado {
 	}
 	
 
+	/**
+	 * @return esSUeldoBajo true si el sueldo esta entre 0 y 1200
+	 * Metodo que se encarga de comprobar si el sueldo de un empleado es bajo
+	 */
 	public boolean tieneSueldoBajo() {
 		boolean esSueldoBajo=false;
 		if (sueldo >= 0 && sueldo <= 1200) {
